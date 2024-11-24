@@ -9,6 +9,7 @@
     
     # Other
     home-manager
+    vim
   ];
 
   fonts.packages = with pkgs; [
