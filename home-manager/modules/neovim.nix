@@ -6,5 +6,12 @@
       rose-pine
       telescope-nvim
     ];
+    extraLuaConfig = 
+      ''
+        vim.g.mapleader = " "
+	vim.opt.number = true
+	vim.opt.relativenumber = true
+	vim.termguicolors = true
+      '';
   };
 }
