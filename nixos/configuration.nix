@@ -10,9 +10,9 @@
     ./modules/bundle.nix
   ];
 
-  disabledModules = [
-    ./modules/xserver.nix
-  ];
+  # disabledModules = [
+    # ./modules/xserver.nix
+  # ];
 
   # Set your time zone/
   time.timeZone = "Europe/London";

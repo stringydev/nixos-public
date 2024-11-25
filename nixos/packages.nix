@@ -1,5 +1,9 @@
 { pkgs, ... }: {
 
+  nixpkgs.config = {
+    allowUnfree = true;
+  };
+
   environment.systemPackages = with pkgs; [
     # Desktop apps
     chromium
@@ -10,8 +14,14 @@
     # Other
     home-manager
     vim
+    
+    # Wayland stuff
+    xwayland
+    wl-clipboard
 
     # Window manager stuff
+    hyprland
+    seatd
     xdg-desktop-portal-hyprland
   ];
 

@@ -2,9 +2,9 @@
   services.xserver = {
     enable = true;
     layout = "gb";
-    desktopManager = {
-      xfce.enable = true;
+    displayManager.gdm = {
+      enable = true;
+      wayland = true;
     };
-    displayManager.defaultSession = "xfce";
-  };
+  };	
 }
