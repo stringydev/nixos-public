@@ -10,6 +10,9 @@
     # Other
     home-manager
     vim
+
+    # Window manager stuff
+    xdg-desktop-portal-hyprland
   ];
 
   fonts.packages = with pkgs; [

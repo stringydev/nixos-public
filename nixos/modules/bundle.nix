@@ -6,5 +6,6 @@
     ./bootloader.nix
     ./nm.nix
     ./hyprland.nix
+    ./virtmanager.nix
   ];
 }
