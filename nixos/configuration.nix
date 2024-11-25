@@ -11,7 +11,7 @@
   ];
 
   disabledModules = [
-    ./modules/wms/hyprland.nix
+    ./modules/xserver.nix
   ];
 
   # Set your time zone/
