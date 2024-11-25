@@ -8,9 +8,8 @@
     git 
     
     # Other
-    home-manager
     vim
-    
+    kitty 
     # Window manager stuff
     seatd
   ];
