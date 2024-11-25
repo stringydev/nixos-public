@@ -6,8 +6,6 @@
     xwayland.enable = true;
 
     settings = {
-      "mainMod" = "SUPER";
-
       monitor = ",1920x1080@75,auto,1";
 
       env = [
