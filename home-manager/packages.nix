@@ -7,6 +7,7 @@
     ripgrep
     eza
     fzf
+    lazygit
 
     # Python
     uv
