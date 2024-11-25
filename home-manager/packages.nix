@@ -7,5 +7,8 @@
     ripgrep
     eza
     fzf
+
+    # Python
+    uv
   ];
 }
