@@ -10,6 +10,7 @@
     # Other
     home-manager
     vim
+    kitty
   ];
 
   fonts.packages = with pkgs; [
