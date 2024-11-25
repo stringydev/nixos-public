@@ -5,6 +5,6 @@
     ./vmware-guest.nix
     ./bootloader.nix
     ./nm.nix
-    # ./hyprland.nix
+    ./hyprland.nix
   ];
 }
