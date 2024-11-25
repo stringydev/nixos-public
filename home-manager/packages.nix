@@ -7,6 +7,7 @@
     ripgrep
     eza
     fzf
+    fd
     lazygit
 
     # Python
