@@ -2,9 +2,7 @@
   services.xserver = {
     enable = true;
     layout = "gb";
-    desktopManager = {
-      xfce.enable = true;
-    };
-    displayManager.defaultSession = "xfce";
+    desktopManager.gnome.enable = true;
+    displayManager.gdm.enable = true;
   };
 }
