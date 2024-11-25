@@ -7,7 +7,7 @@ cursor-style = block
 cursor-style-blink = true
 
 macos-non-native-fullscreen = visible-menu
-# macos-option-as-alt = left
+macos-option-as-alt = left
 mouse-hide-while-typing = true
 
 # Keybinds to match macOS since this is a VM
