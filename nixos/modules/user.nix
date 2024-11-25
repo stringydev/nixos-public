@@ -6,7 +6,7 @@
     
     users.stringydev = {
       isNormalUser = true;
-      extraGroups = [ "networkmanager" "wheel" "input" ];
+      extraGroups = [ "networkmanager" "wheel" "input" "libvirtd" ];
       packages = with pkgs; [];
     };
   };
